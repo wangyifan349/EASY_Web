@@ -19,14 +19,4 @@ Welcome to this GitHub repository! This repository contains several simple and u
 The code for these applications is clean and easy to understand, making them perfect for beginners who want to modify and extend them. If you're learning web development or working with the Flask framework, these projects are a great starting point.
 
 All code is available for use and distribution under the **GNU GENERAL PUBLIC LICENSE Version 3**.
-
-
-
-
-
-
-
-GNU General Public License (GPL) v3 许可证是一种自由软件许可证，旨在确保用户自由使用、修改和分发软件。它要求分发的软件必须公开源代码，且衍生作品也需遵循相同许可证。GPL v3 禁止使用技术保护措施（TPM）来限制用户修改或使用软件，确保用户的修改权利。它还要求避免专利诉讼，若软件被修改并分发，必须提供相同的自由。许可证不可撤销，分发软件时需遵循相同的开源条件，并且软件按“原样”提供，不附带任何保证。
-
-The GNU General Public License (GPL) v3 is a free software license designed to ensure users' freedom to use, modify, and distribute software. It requires that the software distributed must make its source code available, and that derivative works must also follow the same license. GPL v3 prohibits the use of technical protection measures (TPM) that restrict users' rights to modify or use the software, ensuring their right to make modifications. It also requires the avoidance of patent litigation, and if the software is modified and redistributed, the same freedoms must be provided. The license is irrevocable, and software distribution must comply with the same open-source conditions, with the software provided "as is" without any warranties.
-
+GNU General Public License (GPL) v3 许可证是一种自由软件许可证，旨在确保用户自由使用、修改和分发软件。
