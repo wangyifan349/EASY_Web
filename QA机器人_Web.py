@@ -77,6 +77,25 @@ lcs_length, lcs = longest_common_subsequence(s1, s2)
 print("字符串 '%s' 和 '%s' 的最长公共子序列长度为: %d" % (s1, s2, lcs_length))
 print("最长公共子序列: %s" % lcs)
 """
+"""
+import math
+def l2_distance(vec1, vec2):
+    if len(vec1) != len(vec2):
+        raise ValueError("两个向量的维度必须相同")
+    return math.sqrt(sum((x - y) ** 2 for x, y in zip(vec1, vec2)))
+def cosine_similarity(vec1, vec2):
+    if len(vec1) != len(vec2):
+        raise ValueError("两个向量的维度必须相同")
+    dot_product = sum(x * y for x, y in zip(vec1, vec2))
+    norm1 = math.sqrt(sum(x ** 2 for x in vec1))
+    norm2 = math.sqrt(sum(x ** 2 for x in vec2))
+    if norm1 == 0 or norm2 == 0:
+        raise ValueError("向量中存在零向量，无法计算余弦相似度")
+    return dot_product / (norm1 * norm2)
+"""
+
+
+
 qa_dict = {
     "阿莫西林是什么？": (
         "阿莫西林是一种青霉素类抗生素，主要通过干扰细菌细胞壁的合成杀灭细菌。"
